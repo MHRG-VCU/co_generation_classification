@@ -49,6 +49,11 @@ Ussing dictionary of the 3000 most frequent words
 
 As can be seen, jointly optimizing for classification-generation provided a model with better generalization and a more stable training. During the experiments, it was also seen that the model trained without including the generation loss (only _Lc_), often plateaued. 
 
+## Prerequisites
+The script uses the 2dlearn library https://github.com/danmar3/2dlearn-lib. To use the library, clone the repository and add the library's directory to the PYTHONPATH environmental variable.
+
+<br><br>
+
 
 [1] P. Nakov, A. Ritter, S. Rosenthal, F. Sebastiani and V. Stoyanov, "SemEval-2016 task 4: Sentiment analysis in Twitter," in 10th international workshop on semantic evaluation (SemEval 2016), San Diego, US, 2016
 
